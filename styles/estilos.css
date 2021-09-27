@@ -1,0 +1,83 @@
+p{
+    color: rgb(173, 50, 34);
+}
+h3 {
+    color: rgb(112, 211, 236);
+}
+a{
+    background-color: orchid;
+}
+
+#parrafo3{
+    color: goldenrod;
+}
+
+.parrafoClaseGris {
+    color: gray;
+}
+
+.parrafoClaseNegro {
+    color: darkblue;
+}
+
+.textoNaranja {
+    color: orange;
+}
+
+.textoCafe {
+    color: brown;
+}
+
+.fondoGris {
+    background-color: gray;
+}
+
+.fondoAzul {
+    background-color: lightskyblue;
+}
+
+.textoGrandeNegrita {
+    font-size: x-large;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.imagenPequeña {
+    width : 300px;
+}
+
+.parrafoAngosto {
+    width: 350px
+}
+
+.contenedorConMargen {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 10px solid rebeccapurple;
+    padding: 10px;
+}
+
+.contenedorDivGrid {
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    grid-template-rows: 150px 150px 150px;
+    margin: 20px;
+}
+
+.divTest {
+    border: 1px solid blue;
+}
+
+.contenedorDivFlex {
+    border: 2px solid red;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px; 
+}
